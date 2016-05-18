@@ -25,8 +25,8 @@ var passportConfig = require('./config/passport');
 var app = express();
 
 //database connection
-mongoose.connect('mongodb://localhost:27017/MMO_PROJECT');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost:27017/MMO_PROJECT');
+// var db = mongoose.connection;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
