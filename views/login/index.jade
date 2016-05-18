@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  .container
+    .row
+      .col-md-8
+        h2 Account Login
+        br
+        form(action="/login" method="POST")
+          .form-group
+            label Username
+            input.form-control(type="text" name="email")
+            br
+          .form-group
+            label Password
+            input.form-control(type="password" name="password")
+            .submit
+          button(type="submit" value="Submit").btn.btn-default Submit
